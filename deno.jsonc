@@ -1,0 +1,11 @@
+{
+	"lock": false,
+	"tasks": {
+		"dev": "deno run -A --watch ./mod.tsx"
+	},
+	"importMap": "import_map.json",
+	"compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+	}
+}
